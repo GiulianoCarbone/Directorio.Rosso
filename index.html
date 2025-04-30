@@ -37,7 +37,7 @@
         <!-- CARD DE LOGIN -->
         <div class="col-11 col-sm-8 col-md-6 col-lg-4">
           <div class="login-card" data-aos="zoom-in">
-            <h4 class="text-center mb-4">Acceso al Portal Rosso</h4>
+            <h4 class="text-center mb-4">Acceso al directorio de Rosso</h4>
             <form onsubmit="return login(event)">
               <div class="mb-3">
                 <label class="form-label">Correo institucional</label>
@@ -73,7 +73,7 @@
       const errorText = document.getElementById("error");
 
       if (email.endsWith("@rossomateriales.com.ar")) {
-        window.location.href = "index.html";
+        window.location.href = "inicio.html";
       } else {
         errorText.innerText = "Solo se permite el acceso con correos de rossomateriales.com.ar";
       }
